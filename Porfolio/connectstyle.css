@@ -1,0 +1,106 @@
+ .heading {
+    font-size: 40px;
+    color: #9c0202;
+    font-weight: bold;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    border-bottom: 2px solid #9c0202;
+  }
+
+.container{
+    display: flex;
+    gap: 130px;
+}
+
+.connect-image img{
+    width: 600px;
+    height: 500px;
+}
+
+.form-container {
+    max-width: 24rem; 
+    margin: 50px auto; 
+    padding: 1rem;
+    transform: scale(1.3);
+
+}
+
+
+.form-label {
+    display: block; 
+    margin-bottom: 0.5rem; 
+    margin-top: 0.5rem;
+    font-size: 0.875rem; 
+    font-weight: 500; 
+    color: hsl(215, 46%, 95%); 
+}
+
+/* Form input styling */
+.form-input {
+    background-color: #f9fafb; 
+    border: 1px solid #d1d5db; 
+    color: #1f2937; 
+    font-size: 0.875rem; 
+    border-radius: 0.5rem; 
+    padding: 0.625rem; 
+    width: 300px; 
+    box-sizing: border-box; 
+}
+
+
+/* Dark mode input styling */
+body.dark .form-input {
+    background-color: #374151; /* Equivalent to dark:bg-gray-700 */
+    border-color: #4b5563; /* Equivalent to dark:border-gray-600 */
+    color: #f9fafb; /* Equivalent to dark:text-white */
+}
+
+body.dark .form-input:focus {
+    border-color: #3b82f6; /* Equivalent to dark:focus:border-blue-500 */
+}
+
+/* Helper text styling */
+.form-helper-text {
+    margin-top: 0.5rem; /* Equivalent to mt-2 */
+    font-size: 0.875rem; /* Equivalent to text-sm */
+    color: #6b7280; /* Equivalent to text-gray-500 */
+}
+
+/* Dark mode helper text */
+body.dark .form-helper-text {
+    color: #9ca3af; /* Equivalent to dark:text-gray-400 */
+}
+
+/* Link styling */
+.form-link {
+    font-weight: 500; /* Equivalent to font-medium */
+    color: #2563eb; /* Equivalent to text-blue-600 */
+    text-decoration: none;
+}
+.form-input-textarea{
+    background-color: #f9fafb; 
+    border: 1px solid #d1d5db; 
+    color: #1f2937; 
+    font-size: 0.875rem; 
+    border-radius: 0.5rem; 
+    padding: 0.625rem; 
+    width: 300px; 
+    height: 100px;
+    box-sizing: border-box; 
+}
+.btn{
+    background-color: #be2b2b;
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-left: 70px;
+    padding: 2px 50px;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    transform: scale(15px);
+}
+
+.wrapper{
+    border-bottom: 2px solid #9c0202;
+}

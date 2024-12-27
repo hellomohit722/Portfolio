@@ -1,0 +1,115 @@
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  /* Heading */
+  .heading {
+    font-size: 40px;
+    color: #9c0202;
+    font-weight: bold;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    border-bottom: 2px solid #9c0202;
+  }
+  
+  /* Work Section */
+  .work {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+    align-items: center;
+    /* border-bottom: 2px solid #9c0202; */
+  }
+  
+  
+  .work-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .work-item:hover {
+    transform: scale(1.5);
+  }
+  
+  .work-image {
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 0 60px rgba(230, 4, 4, 0.6);
+    border: 1px solid #9c0202;
+  }
+  
+  .work-label {
+    background-color: #9c0202;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    position: relative;
+
+  }
+
+  /* Ensure smooth transition for the work-label */
+/* .work-label {
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+} */
+
+/* Hide the work-label on hover of the parent .work-link */
+.work-link:hover .work-label {
+    opacity: 0;
+    visibility: hidden;
+}
+
+  
+  /* Work Description */
+  .work-description {
+    width: 100%;
+    text-align: justify;
+  }
+  
+  .work-description h3 {
+    font-size: 2rem;
+    color: #9c0202;
+  }
+  
+  .work-description span {
+    font-size: 1rem;
+    color: #9c0202;
+  }
+  
+  .work-description p {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .tags li {
+    border: 1px solid #999;
+    border-radius: 50px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+
+  .ending{
+    text-align: center;
+    font-size: 30px;
+    color: #9c0202;
+    font-weight: bold;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    border-bottom: 2px solid #9c0202;
+  }
